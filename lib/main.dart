@@ -1,20 +1,11 @@
-import 'package:flutter/material.dart';
+import 'Squirtle.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
-        ),
-      ),
-    );
-  }
+  // Create a Squirtle instance with level 8
+  var squirtle = Squirtle(8);
+  
+  // Display Squirtle's information and skills
+  squirtle.displaySkills();
+  
+  print('\n'); // Add a blank line for separatio
 }

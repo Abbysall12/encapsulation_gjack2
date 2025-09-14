@@ -1,0 +1,6 @@
+// How to Open DMG Debug
+
+1. Go to testDMG_calc.dart and scroll down.
+2. Remove the /* */ surrounding the "Damage Debugg Breakdown."
+
+Done.
